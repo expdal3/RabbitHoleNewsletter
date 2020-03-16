@@ -56,7 +56,7 @@ app.post("/", function(req, res) {
     });
 
     //write the jsonData accompanied with the https.request to the ENDPOINT
-    // RequestWithData.write(jsonData);
+    RequestWithData.write(jsonData);
     RequestWithData.end();
 });
 
